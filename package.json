@@ -1,0 +1,28 @@
+{
+  "name": "appmusicback",
+  "version": "1.0.0",
+  "description": "API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioneltolosa/API-REST.git"
+  },
+  "author": "Lionel Tolosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lioneltolosa/API-REST/issues"
+  },
+  "homepage": "https://github.com/lioneltolosa/API-REST#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
